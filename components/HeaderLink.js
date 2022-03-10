@@ -23,7 +23,7 @@ export default function HeaderLink({
       {avatar ? (
         <Icon
           className="!h-7 !w-7 lg:!-mb-1"
-          src={session?.user?.image}
+          src={session.user.image}
           onClick={signOut}
         />
       ) : (
